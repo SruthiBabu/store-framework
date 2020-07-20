@@ -14,20 +14,20 @@
     
       "header-layout.desktop": {
         "children": [
-          "header-row#notification-desktop",
+          "header-row#notification",
           "header-row#main-desktop"
         ]
       },
     
       "header-layout.mobile": {
         "children": [
-          "header-row#notification-mobile",
+          "header-row#notification",
           "header-row#main-mobile",
           "header-row#search-mobile"
         ]
       },
     
-    "header-row#notification-desktop": {
+    "header-row#notification": {
         "children": [
           "header-spacer",
           "rich-text#header",
