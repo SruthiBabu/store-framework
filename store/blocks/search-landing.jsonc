@@ -1,0 +1,25 @@
+{
+    "store.custom#landing": { 
+      "blocks": [
+        "image#landingbanner", 
+        "search-result-layout.customQuery"
+      ]
+    },
+
+    "image#landingbanner": {
+        "props": {
+            "minWidth": "100%",
+            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png"
+        }
+    },
+
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+              "skusFilter": "ALL_AVAILABLE",
+              "maxItemsPerPage": 8,
+              "orderByField": "OrderByReleaseDateDESC"
+            }
+          }
+    }
+  }
