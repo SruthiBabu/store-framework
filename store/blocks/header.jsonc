@@ -15,7 +15,7 @@
       "header-layout.desktop": {
         "children": [
           "header-row#notification",
-          "header-row#main-desktop"
+          "header-row#main"
         ]
       },
     
@@ -23,7 +23,7 @@
         "children": [
           "header-row#notification",
           "header-row#main-mobile",
-          "header-row#search-mobile"
+          "header-row#search"
         ]
       },
     
@@ -34,7 +34,7 @@
           "header-spacer"
         ]
       },
-      "header-row#main-desktop": {
+      "header-row#main": {
         "children": [
           "logo",
           "header-spacer",
